@@ -3,21 +3,22 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{display: 'flex', width: '100%', height: '10vh'}}>
+      <div style={{width: '60%',   alignItems: 'center',  alignItems: 'center'}}>
+        <p style={{marginTop: '2.5%'}}>Insert Logo</p>
+      </div>
+      <div style={{width: '10%'}}>
+        <p style={{textAlign: 'center', marginTop: '15%'}}>Home</p>
+      </div>
+      <div style={{width: '10%'}}>
+        <p style={{textAlign: 'center', marginTop: '15%'}}>About</p>
+      </div>
+      <div style={{width: '10%'}}>
+        <p style={{textAlign: 'center', marginTop: '15%'}}>Services</p>
+      </div>
+      <div style={{width: '10%',  alignItems: 'center'}}>
+        <p style={{textAlign: 'center', marginTop: '15%'}}>Contact</p>
+      </div>
     </div>
   );
 }
