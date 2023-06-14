@@ -29,7 +29,7 @@ const Landing = () =>{
         width: '86.5vh',
         height: '57.4vh',
         left: '9.4vh',
-        top: '208px27.9vh',
+        top: '27.9vh',
         background: '#DEF2F1'
         }}>
            <p style={{
@@ -97,7 +97,7 @@ const Landing = () =>{
         <div style={{
         position: 'absolute',
         left: '45%', //664.49px 45%
-        top: '18.2', //136.28px 10%
+        top: '18.2vh', //136.28px 10%
         borderLeft: '2.7vh solid transparent',
         borderRight: '2.7vh solid transparent',
         borderBottom: 'calc(2 * 2.7vh * 0.866) solid white',
@@ -131,8 +131,53 @@ const Landing = () =>{
             background: '#286E6F',
             transform: 'rotate(-21.36deg)'
         }}>
+        </div>
+
+        <div style={{
+            position: 'absolute',
+            width: '41.8vh',
+            height: '50.4vh',
+            left: '138.5vh',
+            top: '53.8vh',
+            background: '#17252A'
+        }}>
 
         </div>
+
+        <div style={{
+            position: 'absolute',
+            width: '47.1vh',
+            height: '52.5vh',
+            left: '130.8vh',
+            top: '48.7vh',
+            background: '#2B7A78'
+        }}>
+        </div>
+
+        {/* Lines */}
+        <div style={{
+            position: 'absolute',
+            width: '67.3vh',
+            height: '2.1vh',
+            left: '124.9vh',
+            top: '29vh',
+            background: '#DEF2F1',
+        }}>
+        </div>
+
+        <div style={{
+            position: 'absolute',
+            width: '67.3vh',
+            height: '2.1vh',
+            left: '120.6vh',
+            top: '34.9vh',
+            background: '#DEF2F1',
+        }}>
+        </div>
+
+        <img src="././assets/Green model  1.png" style={{
+            
+        }}/>
     </div>
     
 
