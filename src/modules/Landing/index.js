@@ -26,22 +26,22 @@ const Landing = () =>{
         {/* White Box */}
         <div style={{
         position: 'absolute',
-        width: '645px',
-        height: '428px',
-        left: '70px',
-        top: '208px',
+        width: '86.5vh',
+        height: '57.4vh',
+        left: '9.4vh',
+        top: '208px27.9vh',
         background: '#DEF2F1'
         }}>
            <p style={{
             position: 'absolute',
-            width: '529px',
-            height: '209px',
+            width: '70.9vh',
+            height: '28vh',
             marginTop: '8%',
             marginLeft: '10%',
             fontStyle: 'normal',
             fontWeight: '400',
-            fontSize: '100px',
-            lineHeight: '118px',
+            fontSize: '13.4vh',
+            lineHeight: '15.8vh',
             
             color: '#17252A',
            }}>
@@ -49,35 +49,45 @@ const Landing = () =>{
            </p>
            <p style={{
             position: 'absolute',
-            width: '454px',
-            height: '20px',
+            width: '60.9vh',
+            height: '2.7vh',
             marginLeft: '10%',
             marginTop: '45%',
             fontWeight: '400',
-            fontSize: '20px',
-            lineHeight: '24px',
+            fontSize: '2.7vh',
+            lineHeight: '3.2vh',
             color: '#3AAFA9',
            }}>
                 Your social and personalized e-commerce.
            </p>
            <div style={{
             position: 'absolute',
-            width: '298px',
-            height: '48px',
+            width: '39.9vh',
+            height: '6.4vh',
             left: '10%',
             top: '80%',
             background: '#286E6F'
            }}>
-
            </div>
         </div>
 
         <div style={{
             position: 'absolute',
-            width: '298px',
-            height: '48px',
-            left: '127px',
-            top: '179px',
+            width: '24vh',
+            height: '2.5vh',
+            left: '81vh',
+            top: '77.7vh',
+            background: '#2B7A78'
+        }}>
+
+        </div>
+
+        <div style={{
+            position: 'absolute',
+            width: '40vh',
+            height: '6.4vh',
+            left: '17vh',
+            top: '24vh',
             background: '#17252A'
         }}>
         </div>
@@ -87,11 +97,11 @@ const Landing = () =>{
         <div style={{
         position: 'absolute',
         left: '45%', //664.49px 45%
-        top: '136.28px', //136.28px 10%
-        borderLeft: '20px solid transparent',
-        borderRight: '20px solid transparent',
-        borderBottom: 'calc(2 * 20px * 0.866) solid white',
-        borderTop: '20px solid transparent',
+        top: '18.2', //136.28px 10%
+        borderLeft: '2.7vh solid transparent',
+        borderRight: '2.7vh solid transparent',
+        borderBottom: 'calc(2 * 2.7vh * 0.866) solid white',
+        borderTop: '2.7vh solid transparent',
         display: 'inline-block',
         transform: 'rotate(19.55deg)'
         }}>
@@ -99,10 +109,10 @@ const Landing = () =>{
 
         <div style={{
             position: 'absolute',
-            height: '64.28px',
-            width: '67.2px',
-            left: '710px',
-            top: '203.48px',
+            height: '8.6vh',
+            width: '9vh',
+            left: '95.2vh',
+            top: '27.3vh',
             background: 'white',
             background: 'green',
             clipPath: 'polygon(50% 0%, 0% 100%, 100% 100%)',
@@ -112,10 +122,10 @@ const Landing = () =>{
 
         <div style={{
             position: 'absolute',
-            width: '136.2px',
-            height: '130.97px',
-            left: '616px',
-            top: '262.62px',
+            width: '18.3vh',
+            height: '17.6vh',
+            left: '82.6vh',
+            top: '35.2vh',
             background: 'green',
             clipPath: 'polygon(50% 0%, 0% 100%, 100% 100%)',
             background: '#286E6F',
