@@ -6,7 +6,7 @@ const AboutUs = () =>{
   <div className='w-auto h-[100vh] bg-[#DEF2F1] flex relative overflow-hidden' >
         <Header /> 
         <img src={modelImage} className='w-[60%] h-[140%]'/>
-        <div className='relative flex items-center w-[100%] p-0 flex-nowrap justify-center'>
+        <div className='relative flex items-center w-[100%] h-[100%] p-0 flex-nowrap justify-center'>
             <h1 className='absolute text-[7em] font-extrabold rotate-90 left-[-16.5rem] text-[#17252A] p-0 font-poppins'>
                 ABOUT US.
             </h1>
