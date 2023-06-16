@@ -3,21 +3,18 @@ import React from 'react';
 function Header() {
 
     return(
-    <div style={{display: 'flex', width: '100%', height: '8vh', color: 'white', position: 'absolute'}}>
-        <div style={{width: '50%', alignItems: 'center',  alignItems: 'center'}}>
-        <p style={{marginTop: '2.5%', textIndent: '5%', fontSize: '1.3em', fontWeight: 'bold'}}>(Logo Here)</p>
+    <div className='flex flex-col items-center text-tertiary'>
+        <div className='px-5 bg-dark w-[70%] text-center'>
+            <p>Available Soon in Google Play and App Store</p>
         </div>
-        <div style={{width: '10%'}}>
-        <p style={{textAlign: 'center', marginTop: '15%', fontSize: '1.3em', fontWeight: 'bold'}}>Home</p>
-        </div>
-        <div style={{width: '10%'}}>
-        <p style={{textAlign: 'center', marginTop: '15%', fontSize: '1.3em', fontWeight: 'bold'}}>About</p>
-        </div>
-        <div style={{width: '10%'}}>
-        <p style={{textAlign: 'center', marginTop: '15%', fontSize: '1.3em', fontWeight: 'bold'}}>Services</p>
-        </div>
-        <div style={{width: '10%',  alignItems: 'center'}}>
-        <p style={{textAlign: 'center', marginTop: '15%', fontSize: '1.3em', fontWeight: 'bold'}}>Contact</p>
+        <div className='flex items-center px-10 py-6 border-b-[8px] w-[95%] border-accent'>
+            <a>Logo Here</a>
+            <div className='flex ml-auto gap-10'>
+                <a>Home</a>
+                <a>About</a>
+                <a>Services</a>
+                <a>Contract</a>
+            </div>
         </div>
     </div>
     );

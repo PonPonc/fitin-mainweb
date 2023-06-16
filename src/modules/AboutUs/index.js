@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import Header from '../generic/header.js'
 import modelImage from '../../assets/modelImage1.png'; 
-import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebook, FaLinkedin , FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
 
 const AboutUs = () =>{
  return(
   <div className='w-auto h-[100vh] bg-[#DEF2F1] flex relative overflow-hidden' >
-        <Header/> 
+    <Header></Header> 
         <img src={modelImage} className='w-[60%] h-[100%]'/>
         <div className='relative flex items-center w-[100%] p-0 flex-nowrap justify-center'>
             <h1 className='absolute text-[7em] font-extrabold rotate-90 left-[-16.5rem] text-[#17252A] p-0 font-poppins'>
