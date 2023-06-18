@@ -3,6 +3,7 @@ import Header from '../generic/header.js'
 import Footer from '../generic/footer.js'
 import Features from '../Landing/features.js'
 import GreenModel from '../../assets/Greenmodel1.png'
+import Available from './available.js';
 
 const Landing = () =>{
     return(
@@ -34,6 +35,7 @@ const Landing = () =>{
                 </div>
             </div>
             <Features />
+            <Available/>
             <Footer/>
         </div>
     )
