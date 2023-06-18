@@ -38,15 +38,15 @@ const Features = () => {
             {/*First Big Triangle*/}
             <div className='clip-right absolute bg-[#3BA49E] left-0 top-[0] w-[90%] h-[150vh] z-[0]'></div>
 
-            <div className='relative flex z-[100] pt-[5%] w-full'>
+            <div className='relative flex z-[100] pt-[8%] w-full'>
                 {/*Lines and Shapes*/}
-                <div className='absolute top-[22%] left-[20%] bg-[#DEF2F1] z-[100] w-[20%] h-[5vh]'></div>
-                <div className='absolute clip-down w-[13%] h-[25%] top-[15%] right-[45%] bg-[#2B6E6F] transform rotate-[15deg] z-[100]'></div>
-                <div className='absolute clip-top w-[8%] h-[15%] top-[53%] left-[43%] bg-[#2B7A78] transform rotate-[-25deg] z-[100]'></div>
-                <div className='absolute top-[73%] left-[12%] bg-[#FFFFFF] z-[100] w-[30%] h-[1.7vh]'></div>
-                <div className='absolute top-[78%] left-[15%] bg-[#FFFFFF] z-[100] w-[30%] h-[1.7vh]'></div>
-                <div className='absolute clip-down w-[13%] h-[25%] top-[75%] right-[10%] bg-[#FFFFFF] transform rotate-[15deg] z-[10]'></div>
-                <div className='absolute clip-left w-[5%] h-[18%] top-[55%] right-[0] bg-[#FFFFFF] z-[10]'></div>
+                <div className='absolute top-[25%] left-[20%] bg-[#DEF2F1] z-[100] w-[20%] h-[5vh]'></div>
+                <div className='absolute clip-down w-[13%] h-[25%] top-[18%] right-[45%] bg-[#2B6E6F] transform rotate-[15deg] z-[100]'></div>
+                <div className='absolute clip-top w-[8%] h-[15%] top-[56%] left-[43%] bg-[#2B7A78] transform rotate-[-25deg] z-[100]'></div>
+                <div className='absolute top-[76%] left-[12%] bg-[#FFFFFF] z-[100] w-[30%] h-[1.7vh]'></div>
+                <div className='absolute top-[81%] left-[15%] bg-[#FFFFFF] z-[100] w-[30%] h-[1.7vh]'></div>
+                <div className='absolute clip-down w-[13%] h-[25%] top-[78%] right-[10%] bg-[#FFFFFF] transform rotate-[15deg] z-[10]'></div>
+                <div className='absolute clip-left w-[5%] h-[18%] top-[58%] right-[0] bg-[#FFFFFF] z-[10]'></div>
 
                 {/*Virtual Closet Content*/}
                 <div className='flex-row w-[55%] mt-[5%]'>
@@ -61,7 +61,7 @@ const Features = () => {
                 </div>
             </div>
 
-            <div className='relative flex z-[100] pt-[2.5%] w-full'>
+            <div className='relative flex z-[100] pt-[1%] w-full'>
                 {/*Virtual Try-On Content*/}
                 <div className='flex justify-center w-[40%]'>
                     <img src={pcFR} className='z-[100] ml-[61%]'/>
