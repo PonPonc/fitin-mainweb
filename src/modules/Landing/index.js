@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../generic/header.js'
 import Footer from '../generic/footer.js'
+import Features from '../Landing/features.js'
 import GreenModel from '../../assets/Greenmodel1.png'
 
 const Landing = () =>{
@@ -32,7 +33,7 @@ const Landing = () =>{
                     
                 </div>
             </div>
-
+            <Features />
             <Footer/>
         </div>
     )
