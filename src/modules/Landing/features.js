@@ -78,8 +78,8 @@ const Features = () => {
 
             <div className='relative flex z-[100] pt-[3%] w-full'>
                 {/*Lines and Shapes*/}
-                <div className='absolute top-[17%] left-[20%] bg-[#FFFFFF] z-[100] w-[30%] h-[1.7vh]'></div>
-                <div className='absolute top-[22%] left-[23%] bg-[#FFFFFF] z-[100] w-[30%] h-[1.7vh]'></div>
+                <div className='absolute top-[19%] left-[20%] bg-[#FFFFFF] z-[100] w-[30%] h-[1.7vh]'></div>
+                <div className='absolute top-[24%] left-[23%] bg-[#FFFFFF] z-[100] w-[30%] h-[1.7vh]'></div>
 
                 {/*Shop Clothes Content*/}
                 <div className='flex-row w-[55%] mt-[10%]'>
