@@ -2,11 +2,12 @@ import React from 'react'
 import {IoMegaphone} from 'react-icons/io5'
 import {AiOutlinePlusCircle} from 'react-icons/ai'
 import {FaUserCircle} from 'react-icons/fa'
-import {GiHanger, GiPoloShirt} from 'react-icons/gi'
+import {GiHanger, GiPoloShirt, GiShoppingCart} from 'react-icons/gi'
 import pc1 from '../../assets/PhoneConnect-1.png'
 import pc2 from '../../assets/PhoneConnect-2.png'
 import pcVC from '../../assets/PhoneVirtualCloset.png'
 import pcFR from '../../assets/PhoneFittingRoom.png'
+import pcSC from '../../assets/PhoneShopping.png'
 
 const Features = () => {
   return (
@@ -73,8 +74,25 @@ const Features = () => {
                         <p className='text-tertiary text-[1.8em]'>Fit your attire to any background or events.</p>
                     </div>
                 </div>
-
             </div> 
+
+            <div className='relative flex z-[100] pt-[3%] w-full'>
+                {/*Lines and Shapes*/}
+                <div className='absolute top-[17%] left-[20%] bg-[#FFFFFF] z-[100] w-[30%] h-[1.7vh]'></div>
+                <div className='absolute top-[22%] left-[23%] bg-[#FFFFFF] z-[100] w-[30%] h-[1.7vh]'></div>
+
+                {/*Shop Clothes Content*/}
+                <div className='flex-row w-[55%] mt-[10%]'>
+                    <div className='ml-[30%] px-[5%] pt-[4.5%] pb-[8%]'>
+                        <GiShoppingCart className='text-tertiary text-[4em] drop-shadow-[0_5px_5px_rgba(0,0,0,0.2)]'/>
+                        <h1 className='text-tertiary font-extrabold text-[3em] drop-shadow-[0_5px_5px_rgba(0,0,0,0.2)]'>Shop Clothes</h1>
+                        <p className='text-tertiary text-[1.8em] pr-[10%]'>Buy clothes from established brands instantly.</p>
+                    </div>
+                </div>
+                <div className='flex justify-center w-[45%]'>
+                    <img src={pcSC} className='z-[100] mr-[18%]'/>
+                </div>
+            </div>
         </div>
     </div>
   )
