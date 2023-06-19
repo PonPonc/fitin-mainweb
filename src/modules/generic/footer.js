@@ -6,7 +6,7 @@ function Footer() {
     return(
         <div className='h-[20rem] flex border-t border-dark-200 relative'>
             <div className='w-[70%] flex py-[4rem] bg-primary'>
-                <div className='flex flex-col gap-2 text-center w-[100%]'>
+                <div className='flex flex-col gap-2 text-center w-[100%] font-roboto'>
                     <p className='mb-5'>MENU</p>
                     <a>Home</a>
                     <a>About Us</a>
