@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from '../generic/header.js'
 import Footer from '../generic/footer.js'
+import Features from '../Landing/features.js'
 import GreenModel from '../../assets/Greenmodel1.png'
 import modelImage from '../../assets/modelImage2.png'; 
+import Available from './available.js';
 
 const Landing = () =>{
     return(
@@ -21,6 +23,7 @@ const Landing = () =>{
 
                     <div className='w-[27rem] p-1.5 bg-tertiary absolute top-[2rem] right-[-6.5rem]'/>
                     <div className='w-[27rem] p-1.5 bg-tertiary absolute top-[4.2rem] right-[-5rem]'/>
+                    <div className='bg[url('></div>
 
                     <div className='p-5 bg-style w-[279px] h-[20rem] mt-[10rem] relative' style={{
                         boxShadow: '1rem 1rem #17252A'
@@ -33,13 +36,15 @@ const Landing = () =>{
                     
                 </div>
             </div>
-            <div className='text-center h-[353px] w-[100%] flex items-center justify-center text-[6rem] text-tertiary' 
+            {/* <div className='text-center h-[353px] w-[100%] flex items-center justify-center text-[6rem] text-tertiary' 
                 style={{
                     background:`url(${modelImage})`,
                     backgroundRepeat:'no-repeat',
                     backgroundSize:'cover',
                 }}
-                    ><p>Text Needed</p></div>
+                    ><p>Text Needed</p></div> */}
+            <Features />
+            <Available/>
             <Footer/>
         </div>
     )

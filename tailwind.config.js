@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      'monsterrat': ['Monsterrat']
+      'montserrat': ['Montserrat']
     },
     colors:{
       primary:'#3AAFA9',
@@ -18,5 +18,6 @@ module.exports = {
     }
   },
   plugins: [],
+  
 }
 
