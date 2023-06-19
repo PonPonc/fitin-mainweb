@@ -26,10 +26,10 @@ const Available = () => {
         after:shadow-[0px_4px_80px_30px_rgba(0,0,0,0.25)]'>
               <div className=' w-[100%] ml-[10%]'>
                 <div className='w-10%'>
-                      <h3 className='text-[4em] pl-[15%] pb-[] w-[100vh] h-[100%] font-extrabold text-secondary'>Available for your smartphone soon.</h3>
+                      <h3 className='text-[4rem] pl-[15%] pb-[] w-[100vh] h-[100%] font-extrabold text-secondary'>Available for your smartphone soon.</h3>
                 </div>
                 <div>
-                      <h3 className='text-[2em] pl-[15%] pb-[1%] pr-[5%] w-[100vh] h-[100%] font-extrabold text-secondary'>Coming soon within the reach of your fingertips.</h3>
+                      <h3 className='text-[2rem] pl-[15%] pb-[1%] pr-[5%] w-[100vh] h-[100%] font-extrabold text-secondary'>Coming soon within the reach of your fingertips.</h3>
                 </div>
                 <div>
                       <img src={GoogleButton} className='pl-[15%] pt-[2%] h-auto w-[30em]'></img>
