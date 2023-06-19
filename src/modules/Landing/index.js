@@ -7,7 +7,7 @@ import Available from './available.js';
 
 const Landing = () =>{
     return(
-        <div className='w-[100vw] max-w-[100%] bg-primary'>
+        <div className='w-[100vw] max-w-[100%] bg-primary overflow-hidden'>
             <div className='p-1 bg-dark w-[70%] text-center mx-auto text-tertiary'>
             <p>Available Soon in Google Play and App Store</p></div>
             <Header className='text-tertiary border-accent border-b-[8px] mx-6'/>

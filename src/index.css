@@ -32,3 +32,7 @@ code {
 .clip-left{
   clip-path: polygon(100% 100%, 100% 0, 0 50%);
 }
+
+.clip-rect{
+  clip-path: polygon(57% 0, 100% 0, 100% 71%, 57% 71%);
+}
