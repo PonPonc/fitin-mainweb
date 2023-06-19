@@ -29,7 +29,7 @@ const Available = () => {
                       <h3 className='text-[4rem] pl-[15%] pb-[] w-[100vh] h-[100%] font-extrabold text-secondary'>Available for your smartphone soon.</h3>
                 </div>
                 <div>
-                      <h3 className='text-[2rem] pl-[15%] pb-[1%] pr-[5%] w-[100vh] h-[100%] font-extrabold text-secondary'>Coming soon within the reach of your fingertips.</h3>
+                      <h3 className='text-[2rem] pl-[15%] pb-[1%] pr-[5%] w-[100vh] h-[100%] font-extrabold text-[#ffffff]'>Coming soon within the reach of your fingertips.</h3>
                 </div>
                 <div>
                       <img src={GoogleButton} className='pl-[15%] pt-[2%] h-auto w-[30em]'></img>

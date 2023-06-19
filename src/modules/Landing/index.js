@@ -10,7 +10,7 @@ import GooglePlayLogo from '../../assets/googleplaylogo.png'
 
 const Landing = () =>{
     return(
-        <div className='w-[100vw] max-w-[100%] bg-primary'>
+        <div className='w-[100vw] max-w-[100%] bg-primary overflow-hidden'>
             {/* Available Soon */}
             <div className='flex p-2 bg-dark w-[80%] text-center mx-auto text-tertiary items-center justify-center'>
                 <p className='text-[25px] font-bold text self-center mr-[1rem]'>Available Soon in Google Play and App Store</p>
@@ -33,7 +33,6 @@ const Landing = () =>{
 
             {/* Very Big Triangle Background */}
             <div className='absolute clip-right w-[55%] h-[100vh] ml-[53.5rem] mt-[15.5rem] bg-[#3BA49E] rotate-[-180deg]' />
-
             <div className='h-[65vh] flex p-5 items-center pl-[5rem] gap-[20rem]'>
                 <div className='px-[4rem] py-10 bg-secondary w-[50rem] h-[35rem] mt-[7rem]'>
                     <p className='text-dark text-[7.25rem] w-[40rem] font-montserrat font-thin'>SHOP LIKE</p>
