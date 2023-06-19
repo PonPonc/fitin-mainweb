@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../generic/header.js'
 import Footer from '../generic/footer.js'
 import GreenModel from '../../assets/Greenmodel1.png'
+import modelImage from '../../assets/modelImage2.png'; 
 
 const Landing = () =>{
     return(
@@ -32,7 +33,13 @@ const Landing = () =>{
                     
                 </div>
             </div>
-
+            <div className='text-center h-[353px] w-[100%] flex items-center justify-center text-[6rem] text-tertiary' 
+                style={{
+                    background:`url(${modelImage})`,
+                    backgroundRepeat:'no-repeat',
+                    backgroundSize:'cover',
+                }}
+                    ><p>Text Needed</p></div>
             <Footer/>
         </div>
     )
