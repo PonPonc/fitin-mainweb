@@ -83,9 +83,6 @@ const Landing = () =>{
                 <div className='relative p-6 bg-accent w-[27.5rem] h-[25rem] mt-[20rem]' style={{
                         boxShadow: '1.5rem 2rem #17252A'
                     }}>
-
-                    <div className='w-[40rem] h-[1rem] p-1.5 bg-tertiary absolute top-[55rem] right-[12.55rem]'/>
-                    <div className='w-[40rem] h-[1rem] p-1.5 bg-tertiary absolute top-[58.3rem] right-[9.55rem]'/>
                     
                     <div className='w-[30rem] h-[1rem] p-1.5 bg-tertiary absolute top-[-8rem] right-[-8rem]'/>
                     <div className='w-[30rem] h-[1rem] p-1.5 bg-tertiary absolute top-[-5rem] right-[-5rem]'/>
@@ -105,13 +102,9 @@ const Landing = () =>{
                 </div>
                 
             </div>
-            {/* <div className='relative w-[100%] pt-[10rem]'>
-                <img src={ModelImageGreen3} className='w-[100%]'/>
-                <p className='w-[100%] absolute text-tertiary text-[5rem] top-[550px] font-poppins font-extrabold left-1/2 -translate-x-1/2 -translate-y-1/2'>INSERT TEXT HERE</p>
-            </div> */}
-
-            <div className='w-[100%] h-[100vh] relative' style={{background:`url(${ModelImageGreen3})`, backgroundRepeat:'no-repeat'}}>
-
+            <div className='relative w-[100%] text-center'>
+                <img src={ModelImageGreen3} className='w-[100%] h-[100%]'/>
+                <p className='text-tertiary text-[5rem] font-poppins font-extrabold absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>INSERT TEXT HERE</p>
             </div>
             <Features />
             <Available/>
