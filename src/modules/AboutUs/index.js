@@ -26,6 +26,7 @@ const AboutUs = () =>{
                 <div className='pt-[4.5em] flex items-center font-montserrat'>
                     <span className='text-[2em] font-extrabold w-[21%]'>Follow Us</span>
                     <div>
+                        <a href='https://www.facebook.com/fitinglobal'>
                         <FaFacebookF className='text-[2.5em] font-extrabold mr-[1.5vh] border-[1px] border-[rgba(0,0,0,0.6)] border-r-[rgba(0,0,0,0.4)] border-b-[rgba(0,0,0,0.4)] p-[7px] rounded-[5px] shadow-[0px_5px_45px_0px_rgba(0,0,0,0.2)]
                         hover:cursor-pointer 
                         hover:bg-primary
@@ -34,8 +35,11 @@ const AboutUs = () =>{
                         hover:translate-y-[-10px] 
                         hover:duration-[0.5s] 
                         hover:ease-in-out'/> 
+                        </a>
+                        
                     </div>
                     <div>
+                        <a> 
                         <FaInstagram className='text-[2.5em] font-extrabold mr-[1.5vh] border-[1px] border-[rgba(0,0,0,0.6)] border-r-[rgba(0,0,0,0.4)] border-b-[rgba(0,0,0,0.4)] p-[7px] rounded-[5px] shadow-[0px_5px_45px_0px_rgba(0,0,0,0.2)]
                         hover:cursor-pointer 
                         hover:bg-primary
@@ -44,8 +48,10 @@ const AboutUs = () =>{
                         hover:translate-y-[-10px] 
                         hover:duration-[0.5s] 
                         hover:ease-in-out'/>
+                        </a>
                     </div>
                     <div>
+                        <a href='https://www.linkedin.com/company/fitinapp/'>
                         <FaLinkedinIn className='text-[2.5em] font-extrabold mr-[1.5vh] border-[1px] border-[rgba(0,0,0,0.6)] border-r-[rgba(0,0,0,0.4)] border-b-[rgba(0,0,0,0.4)] p-[7px] rounded-[5px] shadow-[0px_5px_45px_0px_rgba(0,0,0,0.2)]
                         hover:cursor-pointer 
                         hover:bg-primary
@@ -54,8 +60,10 @@ const AboutUs = () =>{
                         hover:translate-y-[-10px] 
                         hover:duration-[0.5s] 
                         hover:ease-in-out'/>
+                        </a>
                     </div>
                     <div>
+                        <a>
                         <FaTwitter className='text-[2.5em] font-extrabold mr-[1.5vh] border-[1px] border-[rgba(0,0,0,0.6)] border-r-[rgba(0,0,0,0.4)] border-b-[rgba(0,0,0,0.4)] p-[7px] rounded-[5px] shadow-[0px_5px_45px_0px_rgba(0,0,0,0.2)]
                         hover:cursor-pointer 
                         hover:bg-primary
@@ -64,6 +72,7 @@ const AboutUs = () =>{
                         hover:translate-y-[-10px] 
                         hover:duration-[0.5s] 
                         hover:ease-in-out'/>
+                        </a>
                     </div>
                 </div> 
                 <div className='mt-[15%]'>

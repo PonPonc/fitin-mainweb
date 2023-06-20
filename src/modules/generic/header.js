@@ -7,10 +7,10 @@ function Header(props, logo) {
         <div className={`flex items-center px-10 py-6 w-[95%]`}>
             <a>Logo Here</a>
             <div className='flex ml-auto gap-10'>
-                <a className='hover:cursor-pointer'>Home</a>
-                <a className='hover:cursor-pointer'>About</a>
-                <a className='hover:cursor-pointer'>Services</a>
-                <a className='hover:cursor-pointer'>Contact</a>
+                <a className='hover:cursor-pointer' href='/'>Home</a>
+                <a className='hover:cursor-pointer' href='/about'>About</a>
+                <a className='hover:cursor-pointer' href='/'>Services</a>
+                <a className='hover:cursor-pointer' href='/'>Contact</a>
             </div>
         </div>
     </div>
